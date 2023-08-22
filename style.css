@@ -1,0 +1,116 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .coin {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: inline-block;
+  
+  }
+  
+  body {
+    background-color: #393E46;
+  }
+  
+  h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: #4ECCA3;
+  }
+
+  h2 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 2rem;
+    color: lightblue;
+  }
+  
+  @media (min-width: 319px) and (max-width: 480px){
+    h1{
+    font-size: 2rem;
+    }
+    img{
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 1200px){
+    h1{
+      font-size: 4rem;
+    }
+    img{
+      width: 60%;
+    }
+  }
+
+  @media (min-width: 1201px) and (max-width: 1600px){
+    h1{
+      font-size: 5rem;
+    }
+    img{
+      width: 70%;
+    }
+  }
+
+  @media (min-width: 1601px){
+    h1{
+      font-size: 6rem;
+    }
+    img{
+      width: 80%;
+    }
+  }
+
+  p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  img {
+    width: 60%;
+    border: solid #232931;
+    border-radius: 50%;
+  }
+
+  button{
+    background-color: #eea971;
+    border-radius: 40px;
+    width: 100px;
+    border: none;
+    margin: 20px; 
+    font-size: 2rem;
+    padding: 10px;
+    color: #EEEEEE;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  .toss:hover{
+    cursor: pointer;
+  }
+
+  .pressed {
+    box-shadow: 0 3px 4px 0 #EEEEEE;
+    opacity: 0.5;
+  }
+
+  .rotating {
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    transform: rotateX(1000deg);
+ }
+  
+  footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+  
+  }
